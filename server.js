@@ -20,7 +20,7 @@ const app = express();
 
 //middelwares
 app.use(cors({
-  origin: [https://blog-frontend-1s5c.onrender.com]
+  origin: ['https://blog-frontend-1s5c.onrender.com']
 }));
 app.use(express.json());
 app.use(morgan("dev"));
